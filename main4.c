@@ -4,11 +4,11 @@ int main()
 {
 float temp;
 float K;
-printf("enter the distance :");
+printf("enter speed in m/s:");
 
 scanf("%f" , &temp);
 
-K = temp * 1093.61;
+K = temp * 0.27778;
 
-printf("%.2f yards" , K);
+printf("%.2f k/h" , K);
 }
